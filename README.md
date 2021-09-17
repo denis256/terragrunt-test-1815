@@ -1,5 +1,24 @@
 # Test repository for issue 1815
 
+Directory structure:
+```
+.
+├── applications
+│   └── gateway
+│       └── app1
+│           ├── main.tf
+│           └── terragrunt.hcl
+├── README.md
+└── shared
+    ├── service-discovery-core
+    │   ├── main.tf
+    │   └── terragrunt.hcl
+    └── vpc
+        ├── main.tf
+        └── terragrunt.hcl
+
+```
+
 Test commands:
 
 ```
